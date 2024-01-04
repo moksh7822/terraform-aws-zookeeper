@@ -3,7 +3,7 @@
 This repository collects zookeeper autoscaling and NLB modules with the steps to provision a three node zookeeper cluster in AWS.
 
 
-###Prerequisites
+### Prerequisites
 
 * An AWS account and IAM user with required privileges.
 
