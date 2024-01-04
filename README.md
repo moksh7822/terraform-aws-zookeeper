@@ -13,7 +13,7 @@ This repository collects zookeeper autoscaling and NLB modules with the steps to
 
 ### Getting started
 
-Have a look at ec2-int.sh and terraform.tfvars and modify it according to your requirement.
+* Step 1- Have a look at ec2-int.sh and terraform.tfvars and modify it according to your requirement.
 
 ```
 #!/bin/bash
@@ -90,6 +90,21 @@ desired_capacity      = 2
 asg_health_check_type = "ELB"
 target_group_arns     = []
 ```
+* Step 2 - After updating the values run the terraform commands.
+```
+terraform init
+```
+```
+terraform validate
+```
+```
+terraform plan
+```
+```
+terraform apply
+```
+
+
 
 
   
