@@ -105,6 +105,8 @@ terraform apply
 ```
 Terraform code will provision a zookeeper cluster in a autoscaling group and a Network load balancer , however this code doesnt support autoscaling of zookeeper instances but they can be scaled manually by increasing the desired capacity.
 
+## Contributors
+Moksh Bhardwaj
 
 
 
