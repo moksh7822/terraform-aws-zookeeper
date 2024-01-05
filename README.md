@@ -47,6 +47,11 @@ sudo touch /var/lib/zookeeper/myid
 sudo sh -c "echo 'zk-id' > /var/lib/zookeeper/myid"
 sudo /home/ubuntu/zookeeper/bin/zkServer.sh restart
 ```
+### This script will perform following actions on zookeeper instances 
+* Installing and configuring Java17.
+* Downloading and unziping zookeeper binaries.
+* Creating and updating zookeeper config file.
+
 
 ```
 
